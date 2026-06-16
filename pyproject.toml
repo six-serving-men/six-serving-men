@@ -2,13 +2,13 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "package-name"
+name = "six-serving-men"
 version = "0.0.1"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
 ]
-description = "Package description"
+description = "Six serving men."
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers=[
@@ -17,15 +17,14 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["package-name"]
+keywords = ["six-serving-men"]
 
 dependencies = [
     "pyyaml == 6.0.3"
 ]
 
 [project.scripts]
-package-name = "package_name.cli:run"
+six-serving-men = "six_serving_men.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/org_name/package-name"
-"Bug Tracker" = "https://github.com/org_name/package-name/issues"
+"Homepage" = "https://github.com/six-serving-men/six-serving-men"

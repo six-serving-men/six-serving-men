@@ -1,9 +1,9 @@
-# Package name
+# Six serving men
 <pre>
-  pip install package-name
+  pip install six-serving-men
 </pre>
 Then:
 ```Python
   # Python
-  import package_name
+  import six_serving_men
 ```
